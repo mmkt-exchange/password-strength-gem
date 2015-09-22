@@ -15,7 +15,7 @@ module PasswordStrength
     ONLY_LETTERS = /\A([a-z]|[A-Z])+\z$/
 
     LETTERS = 'abcdefghijklmnopqrstuvwxyz'
-    NUMBERS = '01234567890'
+    NUMBERS = '0123456789'
 
     # FIXME: This string is incomplete and does not match 1:1 the regular
     # expression listed above but, follows the `ng-password-strength`
